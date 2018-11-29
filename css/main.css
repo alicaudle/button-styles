@@ -39,3 +39,11 @@ div {
   background-color: #f33;
   color: #fff;
 }
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
