@@ -7,10 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;
-}
-
 div {
   padding: 1.11rem;
   text-align: center;
@@ -24,9 +20,22 @@ div {
   border-radius: 8px;
   border-width: 3px;
   padding: .71em;
+  text-decoration: none;
 }
 
 .btn-subtle {
-  background-color: #666;
+  background-color: #ccc;
+  color: #fff;
+}
+
+.btn-ghost {
+  border-color: #000;
+  border-style: solid;
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-warning {
+  background-color: #f33;
   color: #fff;
 }
